@@ -7,8 +7,8 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    title: 'MD. Kamrul Hasan - Senior Software Engineer',
-    description: 'Portfolio of MD. Kamrul Hasan, Senior Software Engineer specializing in Django, Python, FastAPI, and scalable microservices architecture.',
+    title: 'MD. Kamrul Hasan - Software Engineer',
+    description: 'Portfolio of MD. Kamrul Hasan, Software Engineer specializing in Django, Python, FastAPI, and scalable microservices architecture.',
 }
 
 export default function RootLayout({
