@@ -56,7 +56,7 @@ export default function About() {
                                 I&apos;m passionate about solving complex engineering challenges and mentoring junior developers. My academic background from Presidency University (CSE, 3.99 CGPA) combined with hands-on experience gives me a strong foundation in algorithms, system design, and data structures.
                             </p>
                             <p className="text-slate-700 text-lg leading-relaxed">
-                                I was honored at ICPC Asia Dhaka Regional Contest 2022 and continuously contribute to open-source projects. Always excited to collaborate on challenging problems and push the boundaries of what's technically possible.
+                                I was honored at ICPC Asia Dhaka Regional Contest 2022 and continuously contribute to open-source projects. Always excited to collaborate on challenging problems and push the boundaries of what&apos;s technically possible.
                             </p>
                         </motion.div>
                     </div>
