@@ -52,7 +52,7 @@ export default function Hero() {
                         variants={itemVariants}
                         className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 text-slate-900"
                     >
-                        Hello, I'm{' '}
+                        Hello, I&apos;m{' '}
                         <span className="text-accent">MD. Kamrul Hasan</span>
                     </motion.h1>
 

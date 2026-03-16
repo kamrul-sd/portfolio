@@ -62,7 +62,7 @@ export default function Contact() {
                         variants={itemVariants}
                         className="text-lg text-slate-700 mb-12 max-w-2xl mx-auto"
                     >
-                        I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to get in touch!
+                        I&apos;m always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to get in touch!
                     </motion.p>
 
                     <motion.div

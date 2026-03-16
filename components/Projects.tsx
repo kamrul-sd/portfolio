@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { HiExternalLink, HiCode } from 'react-icons/hi'
 
 const projects = [
@@ -98,10 +99,11 @@ export default function Projects() {
                         >
                             {/* Project Image */}
                             <div className="relative h-48 overflow-hidden bg-secondary">
-                                <img
+                                <Image
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    fill
+                                    className="object-cover group-hover:scale-110 transition-transform duration-300"
                                 />
                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
                             </div>
