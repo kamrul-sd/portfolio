@@ -55,7 +55,7 @@ export default function Experience() {
     return (
         <section
             id="experience"
-            className="w-full py-20 px-4 sm:px-6 lg:px-8"
+            className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-white"
         >
             <div className="max-w-6xl mx-auto">
                 <motion.h2
@@ -63,7 +63,7 @@ export default function Experience() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: '-100px' }}
                     transition={{ duration: 0.8 }}
-                    className="text-4xl sm:text-5xl font-bold mb-12 text-white"
+                    className="text-4xl sm:text-5xl font-bold mb-12 text-slate-900"
                 >
                     Experience
                 </motion.h2>
@@ -84,18 +84,18 @@ export default function Experience() {
                             {/* Timeline dot */}
                             <div className="absolute w-4 h-4 bg-accent rounded-full -left-2.5 top-0"></div>
 
-                            <div className="bg-secondary/30 rounded-lg p-6 border border-secondary/50 hover:border-accent/50 transition-colors">
+                            <div className="bg-white rounded-lg p-6 border border-slate-200 hover:border-accent/50 transition-colors">
                                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3">
                                     <div>
-                                        <h3 className="text-xl font-bold text-white">{exp.title}</h3>
+                                        <h3 className="text-xl font-bold text-slate-900">{exp.title}</h3>
                                         <p className="text-accent">{exp.company}</p>
                                     </div>
-                                    <p className="text-gray-400 text-sm mt-2 sm:mt-0">
+                                    <p className="text-slate-500 text-sm mt-2 sm:mt-0">
                                         {exp.period}
                                     </p>
                                 </div>
 
-                                <p className="text-gray-300 mb-4">{exp.description}</p>
+                                <p className="text-slate-700 mb-4">{exp.description}</p>
 
                                 <div className="flex flex-wrap gap-2">
                                     {exp.technologies.map((tech) => (

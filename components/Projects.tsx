@@ -69,7 +69,7 @@ export default function Projects() {
     return (
         <section
             id="projects"
-            className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-secondary/30"
+            className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-slate-50"
         >
             <div className="max-w-6xl mx-auto">
                 <motion.h2
@@ -77,7 +77,7 @@ export default function Projects() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: '-100px' }}
                     transition={{ duration: 0.8 }}
-                    className="text-4xl sm:text-5xl font-bold mb-12 text-white"
+                    className="text-4xl sm:text-5xl font-bold mb-12 text-slate-900"
                 >
                     Featured Projects
                 </motion.h2>
@@ -94,7 +94,7 @@ export default function Projects() {
                             key={project.id}
                             variants={itemVariants}
                             whileHover={{ scale: 1.05 }}
-                            className="group relative rounded-lg overflow-hidden bg-secondary/50 border border-secondary hover:border-accent transition-all"
+                            className="group relative rounded-lg overflow-hidden bg-white border border-slate-200 hover:border-accent transition-all"
                         >
                             {/* Project Image */}
                             <div className="relative h-48 overflow-hidden bg-secondary">
@@ -103,15 +103,15 @@ export default function Projects() {
                                     alt={project.title}
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                                 />
-                                <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors"></div>
+                                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
                             </div>
 
                             {/* Project Info */}
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-white mb-2">
+                                <h3 className="text-xl font-bold text-slate-900 mb-2">
                                     {project.title}
                                 </h3>
-                                <p className="text-gray-300 text-sm mb-4 line-clamp-3">
+                                <p className="text-slate-700 text-sm mb-4 line-clamp-3">
                                     {project.description}
                                 </p>
 

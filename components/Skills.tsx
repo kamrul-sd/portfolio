@@ -81,7 +81,7 @@ export default function Skills() {
     return (
         <section
             id="skills"
-            className="w-full py-20 px-4 sm:px-6 lg:px-8"
+            className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-white"
         >
             <div className="max-w-6xl mx-auto">
                 <motion.h2
@@ -89,7 +89,7 @@ export default function Skills() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: '-100px' }}
                     transition={{ duration: 0.8 }}
-                    className="text-4xl sm:text-5xl font-bold mb-12 text-white"
+                    className="text-4xl sm:text-5xl font-bold mb-12 text-slate-900"
                 >
                     Skills & Technologies
                 </motion.h2>
@@ -121,10 +121,10 @@ export default function Skills() {
                                             key={skill.name}
                                             variants={itemVariants}
                                             whileHover={{ scale: 1.1 }}
-                                            className="p-4 rounded-lg bg-secondary/50 border border-secondary hover:border-accent transition-colors text-center"
+                                            className="p-4 rounded-lg bg-slate-100 border border-slate-200 hover:border-accent transition-colors text-center"
                                         >
                                             <IconComponent className={`text-4xl mx-auto mb-2 ${skill.color}`} />
-                                            <p className="text-sm font-medium text-gray-300">{skill.name}</p>
+                                            <p className="text-sm font-medium text-slate-700">{skill.name}</p>
                                         </motion.div>
                                     )
                                 })}

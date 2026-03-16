@@ -6,7 +6,7 @@ export default function Footer() {
     const currentYear = new Date().getFullYear()
 
     return (
-        <footer className="w-full bg-primary border-t border-secondary py-8 px-4 sm:px-6 lg:px-8">
+        <footer className="w-full bg-white border-t border-slate-200 py-8 px-4 sm:px-6 lg:px-8">
             <div className="max-w-6xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0 }}
@@ -15,10 +15,10 @@ export default function Footer() {
                     transition={{ duration: 0.8 }}
                     className="text-center"
                 >
-                    <p className="text-gray-400 mb-2">
+                    <p className="text-slate-600 mb-2">
                         © {currentYear} Kamrul Hasan. All rights reserved.
                     </p>
-                    <p className="text-gray-500 text-sm">
+                    <p className="text-slate-500 text-sm">
                         Built with{' '}
                         <span className="text-accent">Next.js</span> and{' '}
                         <span className="text-accent">Tailwind CSS</span>

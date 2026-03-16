@@ -8,9 +8,19 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: '#0f172a',
-                secondary: '#1e293b',
+                primary: {
+                    dark: '#0f172a',
+                    light: '#ffffff',
+                },
+                secondary: {
+                    dark: '#1e293b',
+                    light: '#f1f5f9',
+                },
                 accent: '#3b82f6',
+                text: {
+                    dark: '#e2e8f0',
+                    light: '#1e293b',
+                },
             },
             animation: {
                 'fade-in': 'fadeIn 0.5s ease-in-out',

@@ -25,7 +25,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-secondary/30"
+            className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-slate-50"
         >
             <div className="max-w-6xl mx-auto">
                 <motion.div
@@ -36,26 +36,26 @@ export default function About() {
                 >
                     <motion.h2
                         variants={itemVariants}
-                        className="text-4xl sm:text-5xl font-bold mb-12 text-white"
+                        className="text-4xl sm:text-5xl font-bold mb-12 text-slate-900"
                     >
                         About Me
                     </motion.h2>
 
                     <div className="grid md:grid-cols-2 gap-8">
                         <motion.div variants={itemVariants}>
-                            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+                            <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                 I'm a Software Engineer with over 3 years of professional experience building scalable backends and microservices. Currently at EvidentBD, I optimize microservices architectures and lead multi-marketplace e-commerce integrations, achieving 30-60% performance improvements.
                             </p>
-                            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+                            <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                 My expertise spans full-stack development with Django, FastAPI, and modern DevOps practices. I specialize in designing microservices, optimizing databases, implementing ML algorithms, and automating complex workflows using Celery and RabbitMQ.
                             </p>
                         </motion.div>
 
                         <motion.div variants={itemVariants}>
-                            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+                            <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                 I'm passionate about solving complex engineering challenges and mentoring junior developers. My academic background from Presidency University (CSE, 3.99 CGPA) combined with hands-on experience gives me a strong foundation in algorithms, system design, and data structures.
                             </p>
-                            <p className="text-gray-300 text-lg leading-relaxed">
+                            <p className="text-slate-700 text-lg leading-relaxed">
                                 I was honored at ICPC Asia Dhaka Regional Contest 2022 and continuously contribute to open-source projects. Always excited to collaborate on challenging problems and push the boundaries of what's technically possible.
                             </p>
                         </motion.div>

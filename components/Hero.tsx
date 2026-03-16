@@ -35,7 +35,7 @@ export default function Hero() {
     return (
         <section
             id="hero"
-            className="relative w-full min-h-screen flex items-center justify-center pt-20 overflow-hidden"
+            className="relative w-full min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-white"
         >
             {/* Gradient background */}
             <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-transparent"></div>
@@ -50,7 +50,7 @@ export default function Hero() {
                 <motion.div variants={itemVariants} className="flex-1">
                     <motion.h1
                         variants={itemVariants}
-                        className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 text-white"
+                        className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 text-slate-900"
                     >
                         Hello, I'm{' '}
                         <span className="text-accent">MD. Kamrul Hasan</span>
@@ -58,14 +58,14 @@ export default function Hero() {
 
                     <motion.p
                         variants={itemVariants}
-                        className="text-lg sm:text-xl text-gray-300 mb-6 max-w-lg"
+                        className="text-lg sm:text-xl text-slate-700 mb-6 max-w-lg"
                     >
                         Software Engineer specializing in building scalable microservices, distributed systems, and e-commerce platforms.
                     </motion.p>
 
                     <motion.p
                         variants={itemVariants}
-                        className="text-base sm:text-lg text-gray-400 mb-8 max-w-lg"
+                        className="text-base sm:text-lg text-slate-600 mb-8 max-w-lg"
                     >
                         Expert in Django, FastAPI, Python, PostgreSQL, and DevOps. I optimize system performance, architect complex backends, and lead teams to deliver high-impact solutions.
                     </motion.p>
