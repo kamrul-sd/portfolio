@@ -1,0 +1,13 @@
+# robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://yourportfolio.com/sitemap.xml
+
+# Specific rules
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
